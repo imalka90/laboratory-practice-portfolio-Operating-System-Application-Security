@@ -19,7 +19,8 @@ The objective of this lab is to configure, harden, and secure a Windows-based op
 3. Applied NSA-recommended password complexity and account lockout thresholds using `secpol.msc`.
 
 > **📸 Verification Screenshot 1: Account Lockout & Password Policy Configuration**
-> ![Password Policy Status](./screenshots/task1_password_policy.png)
+> ![Account Lockout Policy](./screenshots/task1_account_lockout.png)
+> ![Password Policy](./screenshots/task1_password_policy.png)
 
 ### Task 2: Secure Registry Settings
 
