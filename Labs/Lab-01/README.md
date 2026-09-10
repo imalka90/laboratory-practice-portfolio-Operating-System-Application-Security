@@ -18,10 +18,9 @@ The objective of this lab is to configure, harden, and secure a Windows-based op
 2. Disabled default system accounts (such as Guest) or minimized their permission scope to the lowest access tier.
 3. Applied NSA-recommended password complexity and account lockout thresholds using `secpol.msc`.
 
-📸 **Verification Screenshot 1:** Account Lockout & Password Policy Configuration  
-*(Image path: `./screenshots/01-account-policies.png`)*
-
----
+> **📸 Verification Screenshot 1: Account Lockout & Password Policy Configuration**
+> ![Account Lockout Policy](./screenshots/task1_account_lockout.png)
+> ![Password Policy](./screenshots/task1_password_policy.png)
 
 ### Task 2: Secure Registry Settings
 
@@ -29,31 +28,25 @@ The objective of this lab is to configure, harden, and secure a Windows-based op
 2. Configured policies to restrict anonymous access and disable default administrative shares (`AutoShareWks` / `AutoShareServer`).
 3. Enforced restrictions on null session access over named pipes.
 
-📸 **Verification Screenshot 2:** Registry Hardening and Null Session Restrictions  
-*(Image path: `./screenshots/02-registry-hardening.png`)*
-
----
+> **📸 Verification Screenshot 2: Registry Hardening and Null Session Restrictions**
+> ![Registry Settings](./screenshots/task2_registry_hardening.png)
 
 ### Task 3: TCP/IP Stack Tweaking
 
 1. Hardened the Windows network stack via registry keys (`HKLM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters`) to protect against TCP SYN flood and DoS attacks.
 2. Configured parameters such as `SynAttackProtect`, `EnablePMTUDiscovery`, and `KeepAliveTime`.
 
-📸 **Verification Screenshot 3:** TCP/IP Stack DoS Mitigation Parameters  
-*(Image path: `./screenshots/03-stack-tweaking.png`)*
-
----
+> **📸 Verification Screenshot 3: TCP/IP Stack DoS Mitigation Parameters**
+> ![Stack Tweaking](./screenshots/task3_stack_tweaking.png)
 
 ### Task 4: Installing Security Templates via MMC
 
 1. Launched the Microsoft Management Console by typing `MMC` in the Run prompt.
-2. Added the **Security Configuration and Analysis** snap-in via **Console > Add/Remove Snap-in**.
+2. Added the **Security Configuration and Analysis** snap-in via `Console > Add/Remove Snap-in`.
 3. Created a new security database, imported a hardened security template, and executed the security analysis.
 
-📸 **Verification Screenshot 4:** MMC Security Configuration and Analysis Snap-in  
-*(Image path: `./screenshots/04-mmc-security-template.png`)*
-
----
+> **📸 Verification Screenshot 4: MMC Security Configuration and Analysis Snap-in**
+> ![MMC Security Template](./screenshots/task4_mmc_template.png)
 
 ### Task 5: Securing Microsoft Internet Explorer
 
@@ -61,10 +54,8 @@ The objective of this lab is to configure, harden, and secure a Windows-based op
 2. Adjusted Privacy settings to restrict cookies exclusively to first-party and session cookies.
 3. Disabled active scripting under the Security settings panel.
 
-📸 **Verification Screenshot 5:** Internet Explorer Hardened Security Settings  
-*(Image path: `./screenshots/05-ie-security.png`)*
-
----
+> **📸 Verification Screenshot 5: Internet Explorer Hardened Security Settings**
+> ![IE Security Settings](./screenshots/task5_ie_security.png)
 
 ### Task 6: Patching Windows
 
@@ -72,18 +63,20 @@ The objective of this lab is to configure, harden, and secure a Windows-based op
 2. Identified missing security rollups and software patches.
 3. Installed updates and documented applied KB patches for audit compliance.
 
-📸 **Verification Screenshot 6:** System Patch Verification and Update Log  
-*(Image path: `./screenshots/06-windows-patching.png`)*
+> **📸 Verification Screenshot 6: System Patch Verification and Update Log**
+> ![Windows Patch Log](./screenshots/task6_patch_log.png)
 
 ---
 
 ## 3. Lab Questions & Technical Analysis
 
-**Question 1: Why is it critical to restrict null session access and default administrative shares on a network host?**  
-**Answer:** Null sessions allow unauthenticated users to establish connections to a system without providing a username or password. Attackers can exploit null sessions to enumerate account names, security policies, and share details. Disabling default administrative shares and restricting null session access prevents lateral movement and unauthorized reconnaissance across the local network.
+**Question 1: Why is it critical to restrict null session access and default administrative shares on a network host?**
 
-**Question 2: How does adjusting registry settings for TCP/IP stack tweaking help mitigate DoS attacks?**  
-**Answer:** Stack tweaking alters how the operating system handles incomplete network handshakes (such as TCP SYN requests). By enabling settings like `SynAttackProtect`, the OS reduces the connection timeout duration and allocates fewer memory resources to unacknowledged half-open connections, preserving system stability during flood attacks.
+* **Answer:** Null sessions allow unauthenticated users to establish connections to a system without providing a username or password. Attackers can exploit null sessions to enumerate account names, security policies, and share details. Disabling default administrative shares and restricting null session access prevents lateral movement and unauthorized reconnaissance across the local network.
+
+**Question 2: How does adjusting registry settings for TCP/IP stack tweaking help mitigate DoS attacks?**
+
+* **Answer:** Stack tweaking alters how the operating system handles incomplete network handshakes (such as TCP SYN requests). By enabling settings like `SynAttackProtect`, the OS reduces the connection timeout duration and allocates fewer memory resources to unacknowledged half-open connections, preserving system stability during flood attacks.
 
 ---
 
