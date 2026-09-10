@@ -1,6 +1,6 @@
 # Laboratory Practice Portfolio
 
-Welcome to my official laboratory practice portfolio for the **Operating System & Application Security** course module[cite: 2]. This repository tracks and demonstrates my practical skills, technical experiments, security hardening configurations, and systematic analytical progress across assigned hands-on lab environments[cite: 2].
+Welcome to my official laboratory practice portfolio for the **Operating System & Application Security** course module. This repository tracks and demonstrates my practical skills, technical experiments, security hardening configurations, and systematic analytical progress across assigned hands-on lab environments.
 
 ## Student & Course Information
 
@@ -14,7 +14,7 @@ Welcome to my official laboratory practice portfolio for the **Operating System 
 
 ## Portfolio Objective
 
-The purpose of this portfolio is to capture execution evidence, security registry tweaks, system policy templates, and analytical reflections across 6 specialized Operating System security tasks[cite: 2]. Each module serves to validate my capability in securing Windows environments, mitigating network-level denial-of-service attacks, applying security templates, and hardening application configurations[cite: 2].
+The purpose of this portfolio is to capture execution evidence, security registry tweaks, system policy templates, and analytical reflections across 6 specialized Operating System security tasks. Each module serves to validate my capability in securing Windows environments, mitigating network-level denial-of-service attacks, applying security templates, and hardening application configurations.
 
 ---
 
@@ -22,12 +22,12 @@ The purpose of this portfolio is to capture execution evidence, security registr
 
 | Lab ID | Laboratory Exercise Description | Status | Verification Evidence |
 | :--- | :--- | :---: | :---: |
-| **Lab 01** | User Accounts and Password Policies (NSA Recommendations & Account Lockouts)[cite: 2] | ✅ Completed | [View Lab](./Labs/Lab-01) |
-| **Lab 02** | Secure Registry Settings (Null Sessions, Anonymous Access & Default Shares)[cite: 2] | ✅ Completed | [View Lab](./Labs/Lab-02) |
-| **Lab 03** | Stack Tweaking (Registry Hardening for DoS Attack Mitigation)[cite: 2] | ✅ Completed | [View Lab](./Labs/Lab-03) |
-| **Lab 04** | Installing Security Templates (MMC, Security Configuration & Analysis)[cite: 2] | ✅ Completed | [View Lab](./Labs/Lab-04) |
-| **Lab 05** | Securing Microsoft Internet Explorer (ActiveX, Cookie & Scripting Hardening)[cite: 2] | ✅ Completed | [View Lab](./Labs/Lab-05) |
-| **Lab 06** | Patching Windows (Vulnerability Scanning & Patch Management)[cite: 2] | ✅ Completed | [View Lab](./Labs/Lab-06) |
+| **Lab 01** | User Accounts and Password Policies (NSA Recommendations & Account Lockouts) | ✅ Completed | [View Lab](./Labs/Lab-01) |
+| **Lab 02** | Secure Registry Settings (Null Sessions, Anonymous Access & Default Shares) | ✅ Completed | [View Lab](./Labs/Lab-02) |
+| **Lab 03** | Stack Tweaking (Registry Hardening for DoS Attack Mitigation) | ✅ Completed | [View Lab](./Labs/Lab-03) |
+| **Lab 04** | Installing Security Templates (MMC, Security Configuration & Analysis) | ✅ Completed | [View Lab](./Labs/Lab-04) |
+| **Lab 05** | Securing Microsoft Internet Explorer (ActiveX, Cookie & Scripting Hardening) | ✅ Completed | [View Lab](./Labs/Lab-05) |
+| **Lab 06** | Patching Windows (Vulnerability Scanning & Patch Management) | ✅ Completed | [View Lab](./Labs/Lab-06) |
 
 *Status Indicators: 📂 Planned | ⏳ In Progress | ✅ Completed*
 
@@ -35,10 +35,10 @@ The purpose of this portfolio is to capture execution evidence, security registr
 
 ## Tech Stack & Tools Utilized
 
-* **Operating Systems:** Windows 7 / XP / 11 Laboratory Machines[cite: 2]
-* **Administrative & Management Consoles:** Microsoft Management Console (`MMC`), Security Configuration and Analysis Snap-in[cite: 2]
-* **System Hardening:** Windows Registry Editor (`regedit`), Local Group Policy Editor (`gpedit.msc`), NSA Security Baselines[cite: 2]
-* **Security & Network Defense:** TCP/IP Stack Hardening (DoS Mitigation), Security Templates, Web Browser Security Policy[cite: 2]
+* **Operating Systems:** Windows 7 / XP / 11 Laboratory Machines
+* **Administrative & Management Consoles:** Microsoft Management Console (`MMC`), Security Configuration and Analysis Snap-in
+* **System Hardening:** Windows Registry Editor (`regedit`), Local Group Policy Editor (`gpedit.msc`), NSA Security Baselines
+* **Security & Network Defense:** TCP/IP Stack Hardening (DoS Mitigation), Security Templates, Web Browser Security Policy
 
 ---
 
@@ -46,5 +46,5 @@ The purpose of this portfolio is to capture execution evidence, security registr
 
 Each laboratory directory follows a strict layout constraint containing:
 
-1. A comprehensive Markdown write-up containing step-by-step execution notes, security configurations, and analytical answers[cite: 2].
-2. A dedicated `/screenshots` asset directory holding distinct visual evidence captures corresponding to terminal outputs, registry modifications, MMC console configurations, and browser security settings mapping directly back to my laboratory environment[cite: 2].
+1. A comprehensive Markdown write-up containing step-by-step execution notes, security configurations, and analytical answers.
+2. A dedicated `/screenshots` asset directory holding distinct visual evidence captures corresponding to terminal outputs, registry modifications, MMC console configurations, and browser security settings mapping directly back to my laboratory environment.
