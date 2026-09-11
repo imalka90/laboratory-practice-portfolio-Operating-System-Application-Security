@@ -55,7 +55,8 @@ The objective of this lab is to configure, harden, and secure a Windows-based op
 3. Disabled active scripting under the Security settings panel.
 
 > **📸 Verification Screenshot 5: Internet Explorer Hardened Security Settings**
-> ![IE Security Settings](./screenshots/task5_ie_security.png)
+> ![IE Security - Unsigned ActiveX](./Lab-05/screenshots/task5_ie_security_activex.png)
+> ![IE Security - Active Scripting](./Lab-05/screenshots/task5_ie_security_scripting.png)
 
 ### Task 6: Patching Windows
 
