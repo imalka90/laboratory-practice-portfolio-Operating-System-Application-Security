@@ -30,12 +30,4 @@ The objective of this task is to configure, analyze, and apply standardized syst
 
 * **Answer:** Security Templates provide a centralized, repeatable method to enforce consistent security policies (such as password policies, audit policies, and user rights assignments) across multiple hosts. The MMC Security Configuration and Analysis tool enables security personnel to perform baseline compliance auditing, identify security drift, and immediately remediate non-compliant settings without requiring manual registry edits across individual machines.
 
----
 
-## 4. How to Capture the Screenshot for This Step
-
-1. **Open MMC Console**: Press `Win + R`, type `mmc`, and press **Enter**.
-2. **Add Snap-in**: Click `File` > `Add/Remove Snap-in...`, select **Security Configuration and Analysis**, click **Add**, and then click **OK**.
-3. **Open/Create Database & Import Template**: Right-click **Security Configuration and Analysis**, select **Open Database...**, create a new database file (e.g., `SecConfig.sdb`), import your security template (`.inf`), and perform the security analysis.
-4. **Verify View**: Ensure the analyzed MMC console workspace showing the imported configuration/analysis results is clear in the active window.
-5. **Capture and Save**: Press `Win + Shift + S`, select the MMC window, save the capture as `task4_mmc_template.png`, and place it in your `screenshots` folder.
